@@ -33,4 +33,8 @@ class VtigerCrmIntegration extends BasicIntegration implements BasicInterface, I
     {
         return 'plugins/MauticVtigerCrmBundle/Assets/img/vtiger_crm.png';
     }
+
+    public function __call($name, $arguments)
+    {
+    }
 }
